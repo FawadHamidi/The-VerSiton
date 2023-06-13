@@ -2,7 +2,7 @@ import React from "react";
 
 function About(props) {
     return (
-        <div id="about">
+        <section id="about">
             <div className="about-image">
                 <img src={props.image} alt="" />
 
@@ -18,7 +18,7 @@ function About(props) {
                 <a href="#" className="cv-btn">Know More</a>
             </div>
 
-        </div>
+        </section>
     )
 }
 

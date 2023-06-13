@@ -6,13 +6,13 @@ import featureimage3 from '../images/feature_3.png';
 
 function Feature() {
     return (
-        <div id="features">
+        <section id="features">
             <div className="a-container">
                  <a href="#" target="_blank"><FeatureBxo image={featureimage} title='Learn Web3'/></a>
                  <a href="#" target="_blank"><FeatureBxo image={featureimage2} title='Opportunities'/></a>
                  <a href="#" target="_blank"><FeatureBxo image={featureimage3} title='Development Resources'/></a>
             </div>
-        </div>
+        </section>
     )
 }
 export default Feature;

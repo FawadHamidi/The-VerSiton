@@ -130,6 +130,8 @@ nav .menu-btn,
 	background-color: #ffffff;
     transition: all ease 0.5s;
     color: #00b7ff;
+
+    border: 0.1px solid #00b7ff;
    
 }
 
