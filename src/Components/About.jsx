@@ -9,7 +9,7 @@ function About(props) {
             </div>
             <div className="about-text">
                 {/* <h2>{props.title}</h2> */}
-                <h2> <span> Web3 Junction:</span> Where Beginners Meet Professional's! </h2>
+                <h2> <span> Web3 Junction:</span> hehehehehWhere Beginners Meet Professional's! </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur voluptatum
                     saepe est repellendus, nobis nesciunt odio. Esse, perferendis eveniet, ut aliquam in natus
                     consequuntur ratione labore cupiditate doloribus omnis aliquid officia exercitationem totam vero?
