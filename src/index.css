@@ -124,9 +124,10 @@ nav .menu-btn,
 	color:#ffffff;
 }
 .cv-btn:hover{
-	background-color: #0099ff;
+	background-color: #ffffff;
     transition: all ease 0.5s;
-    color: #ffffff;
+    color: #00b7ff;
+    border-color: #04AA6D;
 }
 
 .f-heading h1{
