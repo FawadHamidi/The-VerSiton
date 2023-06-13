@@ -28,7 +28,7 @@ function Navbar() {
                 <li><a href="#home" data-nav-section="home" className="active">Home</a></li>
                 <li><a href="#about" data-nav-section="about">About</a></li>
                 <li><a href="#features" data-nav-section="features">Features</a></li>
-                <li><a href="#news" data-nav-section="news">News</a></li>
+                <li><a href="#news" data-nav-section="blogs">Blogs</a></li>
                 <li><a href="#contact" data-nav-section="contact">Contact</a></li>
             </ul>
         </nav>

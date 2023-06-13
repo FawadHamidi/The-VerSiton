@@ -8,9 +8,9 @@ function Feature() {
     return (
         <div id="features">
             <div className="a-container">
-                    <FeatureBxo image={featureimage} title='Learn Web3'/>
-                    <FeatureBxo image={featureimage2} title='Opportunities'/>
-                    <FeatureBxo image={featureimage3} title='Development Resources'/>
+                 <a href="#" target="_blank"><FeatureBxo image={featureimage} title='Learn Web3'/></a>
+                 <a href="#" target="_blank"><FeatureBxo image={featureimage2} title='Opportunities'/></a>
+                 <a href="#" target="_blank"><FeatureBxo image={featureimage3} title='Development Resources'/></a>
             </div>
         </div>
     )

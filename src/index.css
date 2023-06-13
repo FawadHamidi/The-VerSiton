@@ -11,6 +11,7 @@ body{
 *{
     box-sizing: border-box;
 }
+/* navbar */
 ul{
     list-style: none;
 }
@@ -87,6 +88,8 @@ nav .menu-btn,
 .menu-icon{
 		display:none;
 	}
+   
+    /* Header */
 .name{
 	font-family: 'Montserrat';
 	width: 500px;
@@ -120,14 +123,14 @@ nav .menu-btn,
     align-items: center;
     background-color: #00b7ff;
     box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-    border-radius: 10px;
+    border-radius: 3px;
 	color:#ffffff;
 }
 .cv-btn:hover{
 	background-color: #ffffff;
     transition: all ease 0.5s;
     color: #00b7ff;
-    border-color: #04AA6D;
+   
 }
 
 .f-heading h1{
@@ -148,6 +151,9 @@ nav .menu-btn,
     margin-top: 60px;
     margin-bottom: -80px;
 }
+
+/* About */
+
   #about{
     margin-top:100px ;
 	width:100%;
@@ -166,18 +172,26 @@ nav .menu-btn,
     color: #fff;
     list-style: circle;
 }
+
+.about-text span{
+    color: #00b7ff;
+}
+
 .about-text h2{
 	font-size: 2rem;
-	color:#00b7ff;
+	color:#000000;
     font-weight: 500;
     margin: 0px;
 	padding: 0px;
 }
 .about-text p{
-    width: 80%;
-	font-size: 1.2rem;
-	color:#272727;
-	
+    width: 85%;
+	/* font-size: 1.2rem; */
+	color:#969696;
+    font-size: 1.0rem;
+    font-weight: 300;
+	overflow: hidden;
+    text-overflow: ellipsis;
 }
 .about-text button{
     margin-top: 20px;
@@ -201,6 +215,8 @@ nav .menu-btn,
   width: 600px;
 }
 
+/* features */
+
 #features{
     width:100%;
     height:100vh;
@@ -217,8 +233,9 @@ nav .menu-btn,
     display: flex;
     justify-content: center;
     align-content: center;
-
-
+}
+.a-container a{
+    color: #000000;
 }
 .a-box{
     background-color: #ffffff;
@@ -244,65 +261,6 @@ nav .menu-btn,
 }
 .a-box:hover{
     box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-}
-#presentaion{
-    padding-top: 30px;
-    width:100%;
-    height:768px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(images/presentation.png);
-    text-align: center;
-}
-#presentaion h1{
-font-size: 2rem;
-}
-#services{
-    width:100%;
-    height:100vh;
-    box-sizing: border-box;
-    font-family: calibri;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px ;
-}
-
-.s-heading h1{
-    color:#FFFFFF;
-    font-size: 3rem;
-    margin: 0px;
-    padding: 0px;
-
-}
-.s-heading p{
-    color:rgba(247, 247, 247, 0.678);
-    font-size: 1rem;
-    margin: 0px;
-    padding: 0px;
-}
-.s-heading{
-    text-align: center;
-    margin: 20px 0px;
-}
-.s-box{
-    background-color: #ffffff;
-    width:350px;
-    height: 470px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
-    position: relative;
-}
-.b-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-
 }
 .s-b-img{
     width: 100%;
@@ -344,7 +302,49 @@ font-size: 2rem;
 .s-b-text a{
     margin-top:15px ;
 }
-.s-type{
+/* services */
+
+/* #services{
+    width:100%;
+    height:100vh;
+    box-sizing: border-box;
+    font-family: calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px ;
+}
+
+.s-heading h1{
+    color:#FFFFFF;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 0px;
+
+}
+.s-heading p{
+    color:rgba(247, 247, 247, 0.678);
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+.s-heading{
+    text-align: center;
+    margin: 20px 0px;
+}
+.s-box{
+    background-color: #ffffff;
+    width:350px;
+    height: 470px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    position: relative;
+} */
+
+/* .s-type{
     font-family: calibri;
     color:#000266;
     background-color: #ffffff;
@@ -357,7 +357,15 @@ font-size: 2rem;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
+.b-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
+
+} */
+
+/* Newsletter */
 
 #contact{
     background-color: #00b7ff;
@@ -406,6 +414,9 @@ font-size: 2rem;
 .contact-input a:hover{
     background-color:#0099ff;
 }
+
+/* media query */
+
 @media(max-width:1190px){
 	#main{
 		background-size: 1150px !important;
